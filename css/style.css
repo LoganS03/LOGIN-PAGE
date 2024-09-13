@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    font-family: 'Manrope', sans-serif;
+}
+
+.big_image{
+    position: absolute;
+    width: 766px;
+    height: 982px;
+    left: -10px;
+    top: 0px;
+}
+
+.log_in{
+    margin-top: 151px;
+    margin-left: 922px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 36px;
+}
+
+#enter{
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #949494;
+}
+
+#b_log_in{
+    width: 447px;
+    height: 57px;
+    
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 2px solid rgba(230, 229, 229, 0.15);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+button>p{
+    width: 127px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    
+    float: left;
+    margin-top: 18px;
+    padding-left: 13px;
+    
+    color: #4A4844;
+}
+
+button>img{
+    float: left;
+    margin-left: 116px;
+    width: 31px;
+    height: 56px;
+}
+
+#or>div{
+    display: inline-block;
+    width: 191px;
+    height: 0px;
+    border: 1px solid #E6E6E6;
+}
+
+#or>p{
+    display: inline-block;
+    margin: 47px 24px 62px 28px;
+    
+    color: #C4C4C4;
+}
+
+::placeholder{    
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #C4C4C4;
+}
+
+form{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 31px;
+    
+    color: #4A4844;
+}
+
+input{
+    width: 447px;
+    height: 57px;
+    margin-top: 11px;
+    padding-left: 19px;
+    
+    background: #FFFFFF;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+}
+
+input[type="email"]{
+    margin-bottom: 28px;
+}
+
+input[type="password"]{
+    margin-bottom: 52px;
+}
+
+input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+}
+
+label[for="checkbox"]{
+    width: 135px;
+    height: 22px;
+    padding-left: 9px;
+}
+
+#b_login{
+    width: 447px;
+    height: 57px;
+    
+    background: #3562FF;
+    border: 2px solid #E5E5E5;
+    border-radius: 4px;
+    
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+#member{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+
+    color: #4A4844;
+}
